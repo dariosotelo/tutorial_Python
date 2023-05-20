@@ -85,25 +85,38 @@ print(verde)
 print(azul)
 print(rojo)
 
+print("Nueva clase")
 (verde, *azul, rojo)=tupla_var
 print(verde)
 print(azul)
 print(rojo)
+print(tupla_var)
 
 
+#--------Podemos recorrer la tupla-------------
+
+esta_tupla=("Hola", "Manzana", "Perro")
+for i in range(len(esta_tupla)):
+    print(esta_tupla[i])
 
 
+#-------Podemos también unir las tuplas---------
+tupla1=("hola", "ayer", "casa")
+tupla2=(4,5,3)
+tupla3=tupla1+tupla2
+print(tupla3)
 
 
+#multiplicar las tuplas
+frutas=("pera", "manzana", "fresa")
 
+frutax2=frutas*10
+#fruta+fruta es equivalente
 
+print(frutax2)
 
-
-
-
-
-
-
+#Podemos pedirle que nos cuente el número de peras
+print("el número de peras es:", frutax2.count("pera"))
 
 
 
